@@ -8,3 +8,4 @@ class Student(models.Model):
     roll = models.IntegerField()
     city = models.CharField(max_length=100)
     last_name = models.CharField(max_length=14)
+    registration_no = models.CharField(max(50))
